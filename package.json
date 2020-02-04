@@ -4,7 +4,11 @@
   "private": true,
   "author": "Jeff Decker",
   "license": "UNLICENSED",
+  "scripts": {
+    "deploy": "NODE_ENV=production learn-infrastructure learn-back-lambda"
+  },
   "dependencies": {
-    "@glueit/learn-back": "0.0.1"
+    "@glueit/learn-back": "0.0.1",
+    "@glueit/learn-infrastructure": "0.0.2"
   }
 }
