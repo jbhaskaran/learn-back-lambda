@@ -1,0 +1,10 @@
+{
+  "name": "@glueit/backLambda",
+  "description": "Glue It - Lambda wrapper for the back API.",
+  "private": true,
+  "author": "Jeff Decker",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@glueit/learn-back": "0.0.1"
+  }
+}
