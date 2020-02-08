@@ -18,4 +18,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  name: learnBackLambda-$(date +%Y-%m-%d) 
+  name: learnBackLambda-$(date +%Y-%m-%d).zip
