@@ -8,7 +8,6 @@
     "deploy": "NODE_ENV=production learn-infrastructure learn-back-lambda"
   },
   "dependencies": {
-    "@glueit/learn-back": "0.0.3",
-    "@glueit/learn-infrastructure": "0.0.5"
+    "@glueit/learn-back": "0.0.4"
   }
 }
