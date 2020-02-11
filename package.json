@@ -1,5 +1,5 @@
 {
-  "name": "@glueit/backLambda",
+  "name": "@glueit/back-lambda",
   "description": "Glue It - Lambda wrapper for the back API.",
   "private": true,
   "author": "Jeff Decker",
