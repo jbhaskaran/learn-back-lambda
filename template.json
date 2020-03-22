@@ -82,6 +82,24 @@
             }
           },
           {
+            "PolicyName": "allowS3",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "s3:*"
+                  ],
+                  "Resource": [
+                    "arn:aws:s3:::onstartgo.com",
+                    "arn:aws:s3:::onstartgo.com/*"
+                  ]
+                }
+              ]
+            }
+          },
+          {
             "PolicyName": "allowVpc",
             "PolicyDocument": {
               "Version": "2012-10-17",
